@@ -16,7 +16,6 @@ Y=logging.info
 Q=hlt.Game()
 Q.ready("HopperCollector")
 Y("Successfully created bot! My Player ID is {}.".format(Q.my_id))
-Y("{}".format(constants.SHIP_COST))
 plans={}
 def t(u,me,e):
 	if me.halite_amount+e.halite_amount+u[e.position].halite_amount<4000:
