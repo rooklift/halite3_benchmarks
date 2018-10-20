@@ -13,7 +13,6 @@ p=logging.info
 v=hlt.Game()
 v.ready("PriorityCollector")
 p("Successfully created bot! My Player ID is {}.".format(v.my_id))
-p("{}".format(constants.SHIP_COST))
 b={}
 while f:
 	v.update_frame()
